@@ -1,0 +1,33 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "skin/images/zimbra_mail_notifier_128.png",
+         "16": "skin/images/zimbra_mail_notifier_16.png",
+         "32": "skin/images/zimbra_mail_notifier_32.png",
+         "48": "skin/images/zimbra_mail_notifier_48.png",
+         "64": "skin/images/zimbra_mail_notifier_64.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "__MSG_extName__"
+   },
+   "background": {
+      "service_worker": "js/worker.js"
+   },
+   "default_locale": "ru",
+   "description": "__MSG_extDescription__",
+   "host_permissions": [ "http://*/", "https://*/" ],
+   "icons": {
+      "128": "skin/images/zimbra_mail_notifier_128.png",
+      "16": "skin/images/zimbra_mail_notifier_16.png",
+      "32": "skin/images/zimbra_mail_notifier_32.png",
+      "48": "skin/images/zimbra_mail_notifier_48.png",
+      "64": "skin/images/zimbra_mail_notifier_64.png"
+   },
+   "manifest_version": 3,
+   "name": "__MSG_extName__",
+   "options_ui": {
+      "page": "options.html"
+   },
+   "permissions": [ "tabs", "notifications", "cookies", "storage", "offscreen", "alarms" ],
+   "version": "1.0.0"
+}
