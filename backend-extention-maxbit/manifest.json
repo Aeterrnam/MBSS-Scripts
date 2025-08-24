@@ -1,0 +1,45 @@
+{
+    "manifest_version": 3,
+    "name": "backend-lux-force-solution",
+    "version": "6.0.9",
+    "description": "backend-lux-force-solution",
+    "permissions": [
+      "storage",
+      "notifications"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+          "js": ["scripts/content.js"],
+          "matches": [
+            "https://admin.crimson.1go.prd.maxbit.private/*",
+            "https://admin.crimson.rox.prd.maxbit.private/*",
+            "https://admin.crimson.gizbo.prd.maxbit.private/*",
+            "https://admin.crimson.sol.prd.maxbit.private/*",
+            "https://admin.crimson.jet.prd.maxbit.private/*",
+            "https://admin.crimson.izzi.prd.maxbit.private/*",
+            "https://admin.crimson.fresh.prd.maxbit.private/*",
+            "https://admin.crimson.volna.prd.maxbit.private/*",
+            "https://admin.crimson.legzo.prd.maxbit.private/*",
+            "https://admin.crimson.starda.prd.maxbit.private/*",
+            "https://admin.crimson.drip.prd.maxbit.private/*",
+            "https://admin.crimson.monro.prd.maxbit.private/*",
+			"https://admin.crimson.lex.prd.maxbit.private/*",
+			  "https://admin.crimson.irwin.prd.maxbit.private/*",
+            "https://supdeskt.atlassian.net/servicedesk/customer/*",
+            "https://support-admin-master.chat.cc.local/*"
+          ]
+        }
+      ],
+    "icons": {
+        "128":"icon128.png"
+      },
+      "web_accessible_resources": [
+        {
+          "resources": ["scripts/tickets.js"],
+          "matches": ["https://supdeskt.atlassian.net/*"]          
+        }
+      ]
+  }
