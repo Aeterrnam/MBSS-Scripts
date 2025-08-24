@@ -1,0 +1,711 @@
+fieldset {
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+.option {
+    background-color: #999;
+    font-size: 14px;
+}
+
+.option .header {
+    width: 680px;
+    margin: 0 auto;
+    padding: 0px 30px;
+    position: relative;
+}
+
+.option .header .donate {
+    padding: 10px;
+    text-align: center;
+    background-color: #f07600;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px #555;
+    vertical-align: middle;
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    color: #fff;
+    text-decoration: none !important;
+}
+
+.option .footer {
+    padding-top: 6px;
+    width: 100%;
+    font-size: 11px;
+    color: #333;
+}
+
+.option .footer .createby {
+    float: right;
+    text-align: right;
+    color: #522;
+}
+
+.option img {
+    padding-right: 6px;
+}
+
+.option .content {
+    width: 680px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.option .tabContentWrapper {
+    min-width: 680px;
+    text-align: left;
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 3px 3px 5px #555;
+    border-radius: 5px;
+}
+
+.option .tabContent {
+    min-height: 270px;
+    padding: 3px 20px 20px 20px;
+}
+
+.option .menu {
+    padding-left: 20px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.option .menu li {
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.option .menu li a {
+    -webkit-transition: background-color 0.3s;
+    line-height: 30px;
+    border-radius: 5px 5px 0 0;
+    padding: 10px 8px 8px 8px;
+    border: 0 !important;
+    background-color: #ccc;
+    font-size: 100%;
+    font-weight: bold;
+    color: black !important;
+}
+
+.option .menu li a:hover,
+.option .menu li a.active {
+    background-color: white;
+    text-shadow: none;
+}
+
+.option .zimbra_mail_notifier-serverError {
+    padding: 5px;
+    color: red;
+}
+
+.option .actionButtons {
+    padding: 5px 0px;
+}
+
+.option .hide {
+    display: none;
+}
+
+.option #content_1,
+.option #content_2,
+.option #content_3 {
+    padding-top: 10px;
+}
+
+.option fieldset {
+    background-color: #f6f6f6;
+}
+
+.option .subOptions > div {
+    padding-bottom: 5px;
+}
+
+.option input {
+    padding: 2px 5px;
+}
+
+.option input:invalid {
+    border-color: red;
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.option .play-button {
+    float: right;
+}
+
+.option .play {
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+    border-left: 20px solid black;
+    height: 0px;
+}
+
+.popup {
+    font-size: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    cursor: default;
+    min-width: 200px;
+    min-height: 60px;
+    background-color: #ffffff;
+}
+
+.popup .tooltipDescription {
+    text-align: center;
+}
+.popup .tooltipIdentifier {
+    padding: 3px;
+    position: relative;
+}
+.popup .tooltipIdentifier:not(:first-child) {
+    border-top: solid 1px #ccc;
+}
+
+.popup .tooltipTitle {
+    font-weight: bold;
+}
+
+.popup fieldset {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.popup .actionidentifier {
+    position: absolute;
+    top: 3px;
+}
+
+.popup #zimbra_mail_notifier_tooltipMessage div {
+    margin: 2px 0px;
+}
+
+.popup .action > img,
+.popup #zimbra_mail_notifier_tooltipMessage .tooltipMessageAbstract {
+    cursor: pointer;
+}
+
+.popup #zimbra_mail_notifier_tooltipTask div {
+    width: 100%;
+}
+.popup .action {
+    width: 100%;
+    text-align: right;
+}
+
+.popup .action img {
+    width: 18px;
+    height: 18px;
+    margin-left: 6px;
+}
+
+.popup .section {
+    color: #333;
+}
+
+.popup legend {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.popup .eventLabelDate {
+    color: green;
+    font-size: 11px;
+}
+
+.popup .eventLabelDesc {
+    padding-left: 15px;
+}
+
+.popup .taskLabelPriority {
+    color: red;
+}
+
+.popup .taskLabelPriority[status='5'] {
+    color: green;
+}
+
+.popup .taskLabelPriority[status='9'] {
+    color: blue;
+}
+
+.popup .taskLabelDesc {
+    padding-left: 15px;
+}
+
+.popup .taskLabelPurcent {
+    width: 40px;
+    float: right;
+    text-align: right;
+}
+
+/* SaaS/корпоративный современный стиль для настроек и popup */
+:root {
+    --main-bg: #f7fafd;
+    --card-bg: #fff;
+    --accent: #2563eb;
+    --accent-hover: #1d4ed8;
+    --border: #e5e7eb;
+    --text-main: #222e3a;
+    --text-muted: #6b7280;
+    --nav-bg: #f1f5f9;
+    --nav-active: #e0e7ef;
+    --shadow: 0 2px 8px 0 rgba(37,99,235,0.04);
+    --radius: 12px;
+    --font: 'Inter', 'Segoe UI', 'Arial', sans-serif;
+}
+body, .option, .popup {
+    background: var(--main-bg) !important;
+    font-family: var(--font);
+    color: var(--text-main);
+    font-size: 16px;
+    line-height: 1.6;
+}
+.settings-container, .popup-container {
+    background: var(--main-bg);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.settings-header, .popup-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0 16px 0;
+    background: var(--main-bg);
+}
+.settings-logo, .popup-logo {
+    margin-bottom: 8px;
+    border-radius: var(--radius);
+    background: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.settings-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--accent);
+    margin: 0;
+    letter-spacing: 1px;
+}
+.settings-content {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    min-width: 0;
+    margin: 0 auto;
+    background: var(--card-bg);
+    border-radius: var(--radius);
+    box-sizing: border-box;
+    box-shadow: var(--shadow);
+    min-height: 500px;
+    overflow: hidden;
+}
+.settings-menu {
+    min-width: 200px;
+    background: var(--nav-bg);
+    border-right: 1px solid var(--border);
+    padding: 32px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.settings-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.settings-menu li {
+    margin-bottom: 8px;
+}
+.settings-menu a {
+    display: flex;
+    align-items: center;
+    padding: 14px 28px;
+    color: var(--text-main);
+    text-decoration: none;
+    font-size: 1.08rem;
+    border-radius: 0 var(--radius) var(--radius) 0;
+    transition: background 0.2s, color 0.2s;
+    font-weight: 500;
+}
+.settings-menu a.active, .settings-menu a:hover {
+    background: var(--nav-active);
+    color: var(--accent);
+}
+.settings-menu-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 14px;
+    min-width: 22px;
+    min-height: 22px;
+}
+.settings-main {
+    flex: 1;
+    padding: 40px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    min-width: 0;
+}
+.settings-card {
+    background: #f9fafb;
+    border-radius: 8px;
+    box-shadow: none;
+    padding: 24px 20px 20px 20px;
+    margin-bottom: 24px;
+    min-width: 0;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid var(--border);
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+.settings-btn, .actionButtons button {
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 22px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: none;
+    margin-top: 12px;
+}
+.settings-btn:hover, .actionButtons button:hover {
+    background: var(--accent-hover);
+}
+input[type="text"], input[type="password"], input[type="number"], select, input[type="file"], input[type="color"] {
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    padding: 8px 10px;
+    font-size: 0.95rem;
+    margin: 4px 0 12px 0;
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
+    color: var(--text-main);
+    transition: all 0.18s ease;
+    height: 36px;
+    outline: none;
+    box-shadow: none;
+    font-family: inherit;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="number"]:focus, select:focus, input[type="file"]:focus, input[type="color"]:focus {
+    border: 1.5px solid var(--accent);
+    box-shadow: 0 0 0 3px rgba(37,99,235,0.08);
+    background: #fff;
+}
+
+input[type="text"]::placeholder, input[type="password"]::placeholder, input[type="number"]::placeholder {
+    color: #9ca3af;
+    opacity: 1;
+}
+
+label {
+    font-size: 0.92rem;
+    color: var(--text-main);
+    margin-bottom: 4px;
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+input[type="checkbox"] {
+    accent-color: var(--accent);
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    margin-right: 8px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:focus {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%236b7280" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M4.293 4.293a1 1 0 011.414 0L8 6.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px 16px;
+    padding-right: 32px;
+    cursor: pointer;
+}
+
+select:hover {
+    border-color: var(--accent);
+}
+
+input[type="file"] {
+    padding: 6px 8px;
+    cursor: pointer;
+    background: #f8fafc;
+}
+
+input[type="file"]:hover {
+    background: #f1f5f9;
+}
+
+input[type="color"] {
+    width: 60px;
+    height: 36px;
+    padding: 2px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+    border-radius: 4px;
+    border: none;
+}
+
+input[type="color"]::-webkit-color-swatch {
+    border-radius: 4px;
+    border: none;
+}
+
+.play-button {
+    background: var(--accent);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.18s ease;
+    margin-left: 8px;
+    height: 36px;
+    width: auto;
+    min-width: 40px;
+}
+
+.play-button:hover {
+    background: #1d4ed8;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+fieldset.options {
+    border: none;
+    margin-bottom: 24px;
+    padding: 0;
+}
+legend {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--accent);
+    margin-bottom: 8px;
+}
+.section {
+    font-size: 1.08rem;
+    font-weight: 500;
+    color: var(--accent);
+}
+.subOptions > div {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.subOptions > div:has(label:first-child) {
+    align-items: flex-start;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.subOptions > div:has(label:first-child) label {
+    margin-bottom: 6px;
+}
+
+.subOptions > div:has(input[type="checkbox"]) {
+    align-items: center;
+    flex-direction: row;
+}
+
+.subOptions > div:has(input[type="checkbox"]) label {
+    margin-bottom: 0;
+    flex: 1;
+    cursor: pointer;
+}
+
+
+/* Popup стили */
+.popup-container {
+    min-width: 320px;
+    max-width: 380px;
+    background: var(--card-bg);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 0 0 18px 0;
+    font-family: var(--font);
+}
+.popup-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 18px 0 18px;
+    background: var(--main-bg);
+}
+.popup-logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    background: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.popup-actions {
+    display: flex;
+    gap: 10px;
+}
+.popup-action-btn {
+    width: 32px;
+    height: 32px;
+    background: var(--nav-bg);
+    border-radius: 8px;
+    padding: 4px;
+    cursor: pointer;
+    transition: background 0.18s;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.popup-action-btn:hover {
+    background: var(--accent);
+    color: #fff;
+}
+.popup-main {
+    padding: 0 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.popup-card {
+    background: #f8fafc;
+    border-radius: 10px;
+    box-shadow: none;
+    padding: 14px 12px 10px 12px;
+    border: 1px solid var(--border);
+    margin: 0 0 0 0;
+}
+.popup-card legend {
+    font-size: 1.08rem;
+    font-weight: 600;
+    color: var(--accent);
+    margin-bottom: 4px;
+}
+.section {
+    font-size: 1.02rem;
+    font-weight: 500;
+    color: var(--accent);
+}
+#zimbra_mail_notifier_tooltipMessage {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 6px;
+}
+.mail-list-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    background: var(--card-bg);
+    border-radius: 10px;
+    box-shadow: none;
+    padding: 10px 12px 10px 12px;
+    cursor: pointer;
+    transition: background 0.18s, box-shadow 0.18s, border 0.18s;
+    border: 1.5px solid var(--border);
+}
+.mail-list-item:hover {
+    background: var(--nav-active);
+    border: 1.5px solid var(--accent);
+}
+.mail-list-icon {
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+.mail-list-date {
+    font-size: 0.92rem;
+    color: var(--accent);
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+.mail-list-content {
+    font-size: 1.01rem;
+    color: var(--text-main);
+    line-height: 1.4;
+    word-break: break-word;
+}
+.mail-list-empty {
+    color: var(--text-muted);
+    font-size: 1rem;
+    text-align: center;
+    padding: 18px 0 10px 0;
+}
+@media (max-width: 900px) {
+    .settings-content {
+        flex-direction: column;
+        min-width: 0;
+    }
+    .settings-menu {
+        min-width: 0;
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+        flex-direction: row;
+        justify-content: center;
+        padding: 0;
+    }
+    .settings-menu ul {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .settings-menu li {
+        margin-bottom: 0;
+    }
+    .settings-main {
+        padding: 18px 6px;
+    }
+    .settings-card {
+        padding: 18px 6px;
+        min-width: 0;
+        max-width: 100%;
+    }
+}
+@media (max-width: 400px) {
+    .popup-container {
+        min-width: 0;
+        max-width: 100vw;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .popup-header, .popup-main {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+}
