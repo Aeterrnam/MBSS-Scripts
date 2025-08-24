@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "MaxBit Chat Auto-Scroll",
+  "version": "3.0",
+  "description": "Автопрокрутка чата для MaxBit Support",
+  "icons": {
+    "128": "icons/icon_on.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon_on.png",
+      "48": "icons/icon_on.png",
+      "128": "icons/icon_on.png"
+    }
+  },
+  "permissions": ["storage", "activeTab"],
+  "content_scripts": [{
+    "matches": ["https://support-admin-common-master.mbss.maxbit.private/*"],
+    "js": ["content.js"],
+    "run_at": "document_idle"
+  }],
+  "host_permissions": ["https://support-admin-common-master.mbss.maxbit.private/*"]
+}
