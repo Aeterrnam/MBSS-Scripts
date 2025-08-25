@@ -1,15 +1,10 @@
 // ==UserScript==
 // @name         new Linker MBSS
-// @namespace    http://tishka.xyz/sdt
+// @namespace    123
 // @version      1.9.0
 // @description  updated linker
 // @author       .
 // @match        https://support-admin-common-master.mbss.maxbit.private/*
-// @require      https://greasyfork.org/scripts/28536-gm-config/code/GM_config.js?version=184529
-// @grant       GM.getValue
-// @grant       GM_getValue
-// @grant       GM.setValue
-// @grant       GM_setValue
 // ==/UserScript==
 // переписано все это чудо
 // настройки на ctrl + /
