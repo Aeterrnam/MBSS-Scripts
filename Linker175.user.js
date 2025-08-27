@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         Linker new chat
-// @namespace    123
+// @namespace    http://tishka.xyz/sdt
 // @version      1.7.5
 // @description  updated linker
 // @author       .
 // @match        https://support-admin-common-master.mbss.maxbit.private/*
+// @require      https://greasyfork.org/scripts/28536-gm-config/code/GM_config.js?version=184529
 // @grant       GM.getValue
 // @grant       GM_getValue
 // @grant       GM.setValue
